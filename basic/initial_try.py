@@ -134,12 +134,11 @@ def remove_todo():
 def edit_todo():
     global recognizer
 
-    speaker.say("What is the name of to do that you would like to edit?")
-    speaker.runAndWait()
 
     done = False
     while not done:
-        
+        speaker.say("What is the name of to do that you would like to edit?")
+        speaker.runAndWait()
         try:
             with sr.Microphone() as source:
                 # recognizer.adjust_for_ambient_noise(source, duration=0.2)
@@ -156,9 +155,10 @@ def edit_todo():
                     speaker.say("What would you like to change it to?")
                     speaker.runAndWait()
 
+                    audio = recognizer.listen(source, phrase_time_limit=2)
+
                     editted_todo = recognizer.recognize_google(audio)
                     editted_todo = editted_todo.lower()
-
 
                     todo_list[todo_list.index(todo_edit)] = editted_todo
                     done = True
