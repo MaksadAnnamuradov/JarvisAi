@@ -1,0 +1,44 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hi","hello","hey"],
+            "responses":["hey there","hello","hey there"]
+        },
+        {
+            "tag":"thanks",
+            "patterns":["thank you","thanks"],
+            "responses":["you're welcome","my pleasure","no problem"]
+        },
+        {
+            "tag":"save notes",
+            "patterns":["save note","save a note","save a note for me"],
+            "responses":[""]
+        },
+        {
+            "tag":"show to do",
+            "patterns":["show to do","show to do list","show to do list for me"],
+            "responses":[""]
+        },
+        {
+            "tag":"add to do",
+            "patterns":["add to do","add to do list","add to do list for me"],
+            "responses":[""]
+        },
+        {
+            "tag":"remove to do",
+            "patterns":["remove to do","remove to do list","remove to do list for me"],
+            "responses":[""]
+        },
+        {
+            "tag":"edit to do",
+            "patterns":["edit to do","edit to do list","edit to do list for me"],
+            "responses":[""]
+        },
+        {
+            "tag":"exit",
+            "patterns":["exit","quit","goodbye","bye"],
+            "responses":[""]
+        }
+    ]
+}
