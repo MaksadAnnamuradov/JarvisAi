@@ -6,37 +6,32 @@
             "responses":["hey there","hello","hey there"]
         },
         {
-            "tag":"goodbye",
-            "patterns":["bye","goodbye","see you"],
-            "responses":["goodbye","see you","goodbye"]
-        },
-        {
             "tag":"thanks",
             "patterns":["thank you","thanks"],
             "responses":["you're welcome","my pleasure","no problem"]
         },
         {
-            "tag":"createNote",
-            "patterns":["create note","create a note","create a note for me"],
+            "tag":"save notes",
+            "patterns":["save note","save a note","save a note for me"],
             "responses":[""]
         },
         {
-            "tag":"showToDo",
+            "tag":"show to do",
             "patterns":["show to do","show to do list","show to do list for me"],
             "responses":[""]
         },
         {
-            "tag":"addToDo",
+            "tag":"add to do",
             "patterns":["add to do","add to do list","add to do list for me"],
             "responses":[""]
         },
         {
-            "tag":"removeToDo",
+            "tag":"remove to do",
             "patterns":["remove to do","remove to do list","remove to do list for me"],
             "responses":[""]
         },
         {
-            "tag":"editToDo",
+            "tag":"edit to do",
             "patterns":["edit to do","edit to do list","edit to do list for me"],
             "responses":[""]
         },
